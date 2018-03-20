@@ -8,6 +8,16 @@
 # Usage
 
 
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+```
+
 
 ```
 compile 'com.github.xieyang94:CheckBox:0.0.1'
